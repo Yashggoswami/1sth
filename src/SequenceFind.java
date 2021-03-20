@@ -31,9 +31,10 @@ public class SequenceFind {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String str = sc.nextLine();
+        String str = sc.nextLine();//        if(str.equalsIgnoreCase(pattern))
+//            System.out.println(0);
         String pattern = sc.nextLine();
-        if(str.length()<pattern.length() || str==pattern)
+        if(str.equalsIgnoreCase(pattern))
             System.out.println(0);
         else
         System.out.print(find(str,pattern, str.length(), pattern.length()));

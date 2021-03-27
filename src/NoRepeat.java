@@ -1,5 +1,6 @@
 import java.util.*;
 public class NoRepeat {
+
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int size=sc.nextInt();
@@ -34,7 +35,5 @@ public class NoRepeat {
     }
 }
 
-// Efficient Java program to find first non-
-// repeating element.
 
 

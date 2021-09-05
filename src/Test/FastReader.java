@@ -28,15 +28,15 @@ public class FastReader{
     {
         return Integer.parseInt(next());
     }
-    long parseLong()
+    long nextLong()
     {
         return Long.parseLong(next());
     }
-    double parseDouble()
+    double nextDouble()
     {
         return Double.parseDouble(next());
     }
-    float parseFloat()
+    float nextFloat()
     {
         return Float.parseFloat(next());
     }

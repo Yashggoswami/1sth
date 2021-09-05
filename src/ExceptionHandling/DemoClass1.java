@@ -1,8 +1,11 @@
 package ExceptionHandling;
 
+import java.util.ConcurrentModificationException;
+
 public class DemoClass1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ConcurrentModificationException {
         try{
+            main(new String[]{"yash"});
             double q=0.12;
 //            Integer i=Integer.parseInt("");
             System.out.println(10/q);
